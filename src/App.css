@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.bold_class{
+  font-weight: 700;
+}
+
+p.gray_text {
+  color: #00000080;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.maindiv {
+  text-align: left;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.options-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.options_class {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  min-width: 300px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border: 1px solid #00000047;
+  border-radius: 6px;
+  padding: 8px 0px;
+  font-size: 14px;
+  color: gray;
+}
+
+.btn.btn-dark.next_btn {
+  margin-top: 19px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+.options_class.selected {
+  background-color: #000000;
+  color: #fff;
+}
+
+
+.score-area {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.score-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerbox {
+  width: 700px;
+  height: auto;
+  position: absolute;
+  box-shadow: 0px 0px 8px 0px #80808054;
+  border: none;
+}
+
+.boldcls {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mainbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.score-bar {
+  background-color: black;
+}
+.test-progress-bar {
+  background-color: gray;
+}
+
+.bottombar {
+  display: flex;
+  height: 24px;
+  border: 1px solid;
+  /* overflow: hidden; */
+  font-size: .75rem;
+  background-color: #ffffff;
+  margin-left: 23px ;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.progress {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+}
+
+
+
